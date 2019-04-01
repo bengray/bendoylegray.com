@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "bendoylegray-v1",
+  "description": "Personal site for Ben Gray",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Ben Gray",
   "dependencies": {
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/bengray/bendoylegray.com"
   }
 }
