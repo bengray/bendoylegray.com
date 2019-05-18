@@ -2,9 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import me from '../images/me.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-
+import tool from '../images/tool.jpg'
+import stained_glass from '../images/stained_glass.jpg'
 class Main extends React.Component {
   render() {
 
@@ -25,15 +24,48 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Going to highlight some of my work here.</p>
+          <span className="image main"><img src={tool} alt="" /></span>
+          <p>
+            I'm an experienced full stack JavaScript developer with 10+ years of professional experience. Primary expertise: JavaScript, ReactJS, Redux, Node.js, HTML, CSS, Docker, MongoDB, MySQL.
+          </p>
+
+          <h3>CNN</h3>
+          <p>
+            Software Engineer CNN’s Digital News Publishing Services Team. Working on engineering efforts for CNN’s web-based Content Management System using React/Redux, Node, Mongo, Express/Hapi, Docker, Kubernetes, and AWS.
+          </p>
+
+          <h3>COX Automotive</h3>
+          <p>
+          Lead full-stack software development of Digital Retailing products across Autotrader, KBB, Dealer.com and OEM and Dealer Group partners. Work in an agile environment with cross-functional team to develop products that meet the needs of our consumers & clients.
+          </p>
+          <p>
+          Developed the full stack re-branding of Trade-In Marketplace to Kelley Blue Book Instant Cash Offer. After initial launch, Re-platformed the application by converting existing Java functionality into a fully responsive SPA (single page application) with React.js, Node package manager and other cutting edge technologies. Re-platform included development work ranging from API end-point creation and data model manipulation to front-end styling and UI/UX implementation. It is expected to generate $3.2M in incremental revenue in the first year.
+          </p>
+
+          <h3>Outdoor Sportsman Group</h3>
+          <p>
+          Developed custom internal software which effectively streamlined workflows in multiple departments including order processing, accounting and subscription tracking.
+
+Developed commercial web and e-commerce applications for multiple high-traffic web sites including gunsandammo.com and in-fisherman.com. Utilized MySQL, PHP, WordPress, HTML5, CSS3, jQuery and other javascript libraries.
+          </p>
+
+          <h3>JMX Services</h3>
+          <p>
+          Designed and implemented the online customer interface for transmission equipment condition assessment monitoring for Georgia Power. Utilized stored procedures, MSSQL database, HTML, Javascript, SSL certificates, AES encryption, SHA-2 hashing and CSS to achieve this goal. 
+          </p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
-          
+          <span className="image main"><img src={stained_glass} alt="" /></span>
+          <p>
+            Life is more than a resume.  Success is more than the balance in a bank account.  I strive to connect people through technologies, embracing the human element and wrangling the technical.
+          </p>
+          <p>
+          I'm not a "rock star" or a "ninja", I'm a collaborator, a team builder, and a problem solver.
+          </p>
+
           {close}
         </article>
 
@@ -42,24 +74,6 @@ class Main extends React.Component {
           <p>
             Connect with me via email at bendoylegray@gmail.com or one of the social media sites below:
           </p>
-          {/* <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form> */}
           <ul className="icons">
             <li><a href="https://twitter.com/bgray" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="https://www.facebook.com/bendoylegray" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
@@ -70,8 +84,8 @@ class Main extends React.Component {
         </article>
 
       </div>
-    )
-  }
+    );
+}
 }
 
 Main.propTypes = {
