@@ -63,7 +63,7 @@ Developed commercial web and e-commerce applications for multiple high-traffic w
             Life is more than a resume.  Success is more than the balance in a bank account.  I strive to connect people through technologies, embracing the human element and wrangling the technical.
           </p>
           <p>
-          I'm not a "rock star" or a "ninja", I'm a collaborator, a team builder, and a problem solver.
+          I'm a collaborator, a team builder, a problem solver.
           </p>
 
           {close}
