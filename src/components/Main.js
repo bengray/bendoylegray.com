@@ -67,7 +67,7 @@ Developed commercial web and e-commerce applications for multiple high-traffic w
           <h2 className="major">About</h2>
           <span className="image main"><img src={stained_glass} alt="" /></span>
           <p>
-            When I'm not behind a computer I'm likely on a trail somewhere, or fishing on a lake with my wife and kids.
+            When I'm not behind a computer I'm likely hiking a trail somewhere, or fishing on a lake with my wife and kids.
           </p>
           <p>
             Life is more than a resume.  Success is more than the balance in a bank account.  I strive to connect people through technologies, embracing the human element and wrangling the technical.
