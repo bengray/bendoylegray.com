@@ -38,7 +38,7 @@ class Main extends React.Component {
 
           <h3>CNN</h3>
           <p>
-            Software Engineer CNN’s Digital News Publishing Services Team. Working on engineering efforts for CNN’s web-based Content Management System using React/Redux, Node, Mongo, Express/Hapi, Docker, Kubernetes, and AWS.
+            Software Engineer CNN’s Digital News Publishing Services Team. Worked on full-stack engineering efforts for CNN’s web-based Content Management System using React/Redux, Node, Mongo, Express/Hapi, Docker, Kubernetes, and AWS.
           </p>
 
           <h3>COX Automotive</h3>
