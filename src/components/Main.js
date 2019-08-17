@@ -67,12 +67,6 @@ Developed commercial web and e-commerce applications for multiple high-traffic w
           <h2 className="major">About</h2>
           <span className="image main"><img src={stained_glass} alt="" /></span>
           <p>
-            I have a few passions in life:
-            <ul>
-              <li>Family</li>
-              <li>Software</li>
-              <li>Nature</li>
-            </ul>
             When I'm not behind a computer I'm likely on a trail somewhere, or fishing on a lake with my wife and kids.
           </p>
           <p>
@@ -95,6 +89,7 @@ Developed commercial web and e-commerce applications for multiple high-traffic w
             <li><a href="https://www.facebook.com/bendoylegray" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
             <li><a href="https://www.instagram.com/bendoylegray/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
             <li><a href="https://github.com/bengray" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/bendoylegray/" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
           </ul>
           {close}
         </article>
