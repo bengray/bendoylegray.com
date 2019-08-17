@@ -38,7 +38,9 @@
 			&.active {
 				display: block !important;
 			}
-
+			.emphasis {
+				text-decoration: underline;
+			}
 			.close {
 				display: block;
 				position: absolute;
