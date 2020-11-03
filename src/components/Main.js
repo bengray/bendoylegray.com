@@ -28,8 +28,17 @@ class Main extends React.Component {
           <p>
             I'm an experienced full stack JavaScript developer with 10+ years of professional experience.
           </p>
-          <p><span className="emphasis">Primary expertise</span>: JavaScript, ReactJS, Redux, Node.js, HTML, CSS, Docker, AWS, MongoDB.</p>
-          <p><span className="emphasis">Secondary expertise</span>: Angular, MySQL, PHP, Java, MS Exchange, Linux server administration.</p>
+          <p><span className="emphasis">Primary expertise</span>: JavaScript, ReactJS, Gatsby, Redux, Node.js, HTML, CSS, Docker, AWS, MongoDB.</p>
+          <p><span className="emphasis">Secondary expertise</span>: MySQL, PHP, Java, MS Exchange, Linux server administration.</p>
+
+          <h3>Rooms To Go</h3>
+          <p>
+          I was hired as a front-end team lead with responsibility for high-level architecture decisions, new feature implementation, operational oversight, work prioritization/assignments, and team oversight to include interviewing, hiring and onboarding, training and mentoring, performance reviews, and ensuring team health.
+
+Project work has included efforts to significantly increase homepage loading speed, AA 508 compliance efforts, various code improvement initiatives (training, authoring style guides, code review), and implementation of new features.
+
+Our stack includes ReactJS, Gatsby, Core JavaScript, Redux, Sass, Node.js, Contentful CMS, MongoDB, AWS, and Jenkins.
+          </p>
 
           <h3>Cricket Wireless</h3>
           <p>
