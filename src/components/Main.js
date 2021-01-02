@@ -34,21 +34,21 @@ class Main extends React.Component {
           <h3>Revel Systems</h3>
           <p>
           I was hired to build and lead an Atlanta based team of engineers and oversee direction, architecture and drive new feature delivery. Entrusted with building a pipeline of technical talent, creating a fun, challenging and rewarding environment. Technology stack consists of React.JS, Python, Postgres within AWS.
+          <ul>
+          <li>Oversee the technical design and delivery of software features to ensure compliance with architecture standards, guidelines and objectives.</li>
 
-          Oversee the technical design and delivery of software features to ensure compliance with architecture standards, guidelines and objectives.
+          <li>Help establish and instill best practices techniques for a high level of quality and scalability.</li>
 
-          Help establish and instill best practices techniques for a high level of quality and scalability.
+          <li>Hire, mentor and develop smart, motivated engineers.</li>
 
-          Hire, mentor and develop smart, motivated engineers.
+          <li>Create a culture of quality with a sense of urgency.</li>
 
-          Create a culture of quality with a sense of urgency.
+          <li>Coach, inspire, and lead Agile teams.</li>
 
-          Coach, inspire, and lead Agile teams.
+          <li>Engage with product owners, scrum masters, QA and other stakeholders to ensure key objectives for target markets are met.</li>
 
-          Engage with product owners, scrum masters, QA and other stakeholders to ensure key objectives for target markets are met.
-
-          Dive into product specs, technical designs, code and test plans to drive quality deliverables.
-
+          <li>Dive into product specs, technical designs, code and test plans to drive quality deliverables.</li>
+          </ul>
           </p>
 
           <h3>Rooms To Go</h3>
