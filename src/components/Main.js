@@ -16,9 +16,9 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={me} alt="" /></span>
           <p>Hi! I'm Ben Gray, welcome. I've been building software for the web for a decade and some change.</p>
-          <p>I LOVE working within teams of cross-functional, passionate people.
+          <p>I LOVE building and working within teams of cross-functional, passionate people.
             I've been fortunate enough to have been on a variety of teams that have built everything from customized data collection and monitoring solutions for Georgia Power
-            to a full stack internal CMS for the writers and editors at CNN.  Through the years my passion remains the same: quickly producing quality software with teams of awesome people.</p>
+            to a full stack internal CMS for the writers and editors at CNN and high-traffic e-commerce solutions for Rooms To Go.  Through the years my passion remains the same: quickly producing quality software with teams of awesome people.</p>
           {close}
         </article>
 
@@ -26,10 +26,30 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={tool} alt="" /></span>
           <p>
-            I'm an experienced full stack JavaScript developer with 10+ years of professional experience.
+            I'm an experienced full stack JavaScript developer with 10+ years of professional experience in software engineering.
           </p>
           <p><span className="emphasis">Primary expertise</span>: JavaScript, ReactJS, Gatsby, Redux, Node.js, HTML, CSS, Docker, AWS, MongoDB.</p>
           <p><span className="emphasis">Secondary expertise</span>: MySQL, PHP, Java, MS Exchange, Linux server administration.</p>
+
+          <h3>Revel Systems</h3>
+          <p>
+          I was hired to build and lead an Atlanta based team of engineers and oversee direction, architecture and drive new feature delivery. Entrusted with building a pipeline of technical talent, creating a fun, challenging and rewarding environment. Technology stack consists of React.JS, Python, Postgres within AWS.
+
+          Oversee the technical design and delivery of software features to ensure compliance with architecture standards, guidelines and objectives.
+
+          Help establish and instill best practices techniques for a high level of quality and scalability.
+
+          Hire, mentor and develop smart, motivated engineers.
+
+          Create a culture of quality with a sense of urgency.
+
+          Coach, inspire, and lead Agile teams.
+
+          Engage with product owners, scrum masters, QA and other stakeholders to ensure key objectives for target markets are met.
+
+          Dive into product specs, technical designs, code and test plans to drive quality deliverables.
+
+          </p>
 
           <h3>Rooms To Go</h3>
           <p>
