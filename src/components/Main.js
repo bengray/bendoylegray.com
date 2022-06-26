@@ -15,7 +15,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={me} alt="" /></span>
-          <p>Hi! I'm Ben Gray, welcome. I've been building software for the web for a decade and some change.</p>
+          <p>Hi! I'm Ben Gray. I've been building software for the web for a decade and some change.</p>
           <p>I LOVE building and working within teams of cross-functional, passionate people.
             I've been fortunate enough to have been on a variety of teams that have built everything from customized data collection and monitoring solutions for Georgia Power
             to a full stack internal CMS for the writers and editors at CNN and high-traffic e-commerce solutions for Rooms To Go.  Through the years my passion remains the same: quickly producing quality software with teams of awesome people.</p>
