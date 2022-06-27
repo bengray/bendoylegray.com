@@ -5,7 +5,7 @@
   "author": "Ben Gray",
   "dependencies": {
     "12": "^1.0.2",
-    "gatsby": "^3.12.0",
+    "gatsby": "^3.14.6",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
