@@ -13,13 +13,16 @@ jobs:
         with:
           node-version: '15.5.0'
 
-      - name: Install Gatsby CLI
-        run: npm install -g gatsby-cli@3.12.0 && npm i -g gatsby-cli@2.12.100-telemetry-test.518+061bd7f1b1
-
-      - name: Fix node-sass
-        run: npm rebuild node-sass
-
+      - name: Checkout stuff
       - uses: actions/checkout@v2
+
+      - name: Install Gatsby CLI
+        run: npm install -g gatsby-cli@3.12.0
+
+      - name: Check Gatsby Version
+        run: gatsby --version
+
+      - name: Clean install and build
       - run: npm ci && npm run build
 
       - name: Deploy
