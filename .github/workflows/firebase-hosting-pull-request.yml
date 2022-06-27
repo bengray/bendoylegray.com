@@ -13,6 +13,9 @@ jobs:
         with:
           node-version: '15.5.0'
 
+      - name: Install node-sass
+        run: npm install -s node-sass@7.0.1
+
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli@4.17.1 && npm i -g gatsby-cli@2.12.100-telemetry-test.518+061bd7f1b1
 
