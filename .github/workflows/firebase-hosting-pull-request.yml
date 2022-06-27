@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Try to fix node-sass
-        run: npm uninstall node-sass -g && node install node-sass
+        run: npm uninstall node-sass -g && npm install node-sass
 
       - name: Build
         run: npm run build
