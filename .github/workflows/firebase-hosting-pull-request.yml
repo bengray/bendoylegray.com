@@ -16,6 +16,9 @@ jobs:
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli@3.12.0 && npm i -g gatsby-cli@2.12.100-telemetry-test.518+061bd7f1b1
 
+      - name: Fix node-sass
+        run: npm rebuild node-sass
+
       - uses: actions/checkout@v2
       - run: npm ci && npm run build
 
