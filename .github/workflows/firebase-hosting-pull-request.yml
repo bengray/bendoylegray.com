@@ -11,10 +11,11 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '16.4.0'
+          node-version: '15.5.0'
 
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli@4.17.1
+        run: node -v
 
       - uses: actions/checkout@v2
       - run: npm ci && npm run build
