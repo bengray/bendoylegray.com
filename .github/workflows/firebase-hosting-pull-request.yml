@@ -16,9 +16,8 @@ jobs:
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli@4.17.1
 
-      - name: Install and build
-        uses: actions/checkout@v2
-        run: npm ci && npm run build
+      - uses: actions/checkout@v2
+      - run: npm ci && npm run build
 
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
