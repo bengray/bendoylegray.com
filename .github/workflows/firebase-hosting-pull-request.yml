@@ -19,8 +19,8 @@ jobs:
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli@3.12.0
 
-      - name: Check Gatsby Version
-        run: gatsby --version
+      - name: Try to fix node-sass
+        run: npm uninstall node-sass -g && node cache clean && node install node-sass
 
       - name: Clean install and build
         run: npm ci && npm run build
