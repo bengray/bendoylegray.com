@@ -8,9 +8,20 @@ jobs:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: npm ci && npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.4.0'
+
+      - name: Install Gatsby CLI
+        run: npm install -g gatsby-cli@4.17.1
+
+      - name: Install and build
+        uses: actions/checkout@v2
+        run: npm ci && npm run build
+
+      - name: Deploy
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BENDOYLEGRAY_2F80A }}'
