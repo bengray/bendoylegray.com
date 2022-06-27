@@ -16,8 +16,8 @@ jobs:
       - name: Checkout stuff
         uses: actions/checkout@v2
 
-      - name: Clean install
-        run: npm ci
+      - name: Install
+        run: npm install
 
       - name: Build
         run: npm run build
