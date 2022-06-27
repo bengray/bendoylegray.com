@@ -23,7 +23,7 @@ jobs:
         run: gatsby --version
 
       - name: Clean install and build
-      - run: npm ci && npm run build
+        run: npm ci && npm run build
 
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
