@@ -16,9 +16,17 @@ jobs:
           node-version: '15.5.0'
 
       - name: Install Gatsby CLI
-        run: npm install -g gatsby-cli@4.17.1
+        run: npm install -g gatsby-cli@3.12.0
 
-      - run: npm ci && npm run build
+      - name: Install Gatsby
+        run: npm install -g gatsby@2.25.1
+
+      - name: NPM Install
+        run: npm ci
+
+      - name: NPM Build
+        run: npm run build
+
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
