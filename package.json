@@ -5,6 +5,7 @@
   "author": "Ben Gray",
   "dependencies": {
     "12": "^1.0.2",
+    "firebase-tools": "^9.23.3",
     "gatsby": "^2.32.13",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
