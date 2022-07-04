@@ -16,7 +16,7 @@ jobs:
           node-version: '15.14.0'
 
       - name: Install Firebase tools
-        run: npm install -g firebase-tools
+        run: npm install -g firebase-tools@9
 
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli@3.12.0
