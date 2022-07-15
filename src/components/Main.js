@@ -82,12 +82,12 @@ Our stack includes ReactJS, Gatsby, Core JavaScript, Redux, Sass, Node.js, Conte
           <p>
           Developed custom internal software which effectively streamlined workflows in multiple departments including order processing, accounting and subscription tracking.
 
-Developed commercial web and e-commerce applications for multiple high-traffic web sites including gunsandammo.com and in-fisherman.com. Utilized MySQL, PHP, WordPress, HTML5, CSS3, jQuery and other javascript libraries.
+Developed commercial web and e-commerce applications for multiple high-traffic web sites including gunsandammo.com and in-fisherman.com. Utilized MySQL, PHP, WordPress, HTML5, CSS3, jQuery and other JavaScript libraries.
           </p>
 
           <h3>JMX Services</h3>
           <p>
-          Designed and implemented the online customer interface for transmission equipment condition assessment monitoring for Georgia Power. Utilized stored procedures, MSSQL database, HTML, Javascript, SSL certificates, AES encryption, SHA-2 hashing and CSS to achieve this goal.
+          Designed and implemented the online customer interface for transmission equipment condition assessment monitoring for Georgia Power. Utilized stored procedures, MSSQL database, HTML, JavaScript, SSL certificates, AES encryption, SHA-2 hashing and CSS to achieve this goal.
           </p>
           {close}
         </article>
