@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import me from '../images/me.jpg'
+import me from '../images/me-full.jpg'
 import tool from '../images/tool.jpg'
 import stained_glass from '../images/stained_glass.jpg'
 class Main extends React.Component {
