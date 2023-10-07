@@ -10,6 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install Python2
+        run: apt install python2
+
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
@@ -22,7 +25,7 @@ jobs:
         run: npm install -g gatsby-cli@2.19.3
 
       - name: NPM Install
-        run: rm -rf node_modules/ && npm i
+        run: npm i
 
       - name: NPM Build
         run: npm run build
