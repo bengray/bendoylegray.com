@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import me from '../images/me.jpg'
+import me from '../images/photo-ben.jpg'
 import tool from '../images/tool.jpg'
-import stained_glass from '../images/stained_glass.jpg'
+import trees from '../images/Trees.jpeg'
 class Main extends React.Component {
   render() {
 
@@ -15,10 +15,9 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={me} alt="" /></span>
-          <p>Hola! I'm Ben Gray. I've been building software for the web for a decade and some change.</p>
-          <p>I LOVE building and working within teams of cross-functional, passionate people.
-            I've been fortunate enough to have been on a variety of teams that have built everything from customized data collection and monitoring solutions for Georgia Power
-            to a full stack internal CMS for the writers and editors at CNN and high-traffic e-commerce solutions for Rooms To Go.  Through the years my passion remains the same: quickly producing quality software with teams of awesome people.</p>
+          <p>I'm Ben Gray. I've been leading teams and building software for the web for almost two decades.</p>
+          <p>My passion is building cross-functional teams and developing performant, scalable software.
+            I've been fortunate enough to have been on a variety of teams that have built everything from customized data collection and monitoring solutions for Georgia Power to a full stack internal CMS for the writers and editors at CNN and high-traffic e-commerce solutions for Rooms To Go.  Through the years my passion remains the same: quickly producing quality software with teams of awesome people.</p>
           {close}
         </article>
 
@@ -26,38 +25,25 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={tool} alt="" /></span>
           <p>
-            I'm an experienced full stack JavaScript developer with 10+ years of professional experience in software engineering.
+            I was going to use this space to "sell" myself.  But you know... I'm an experienced human being.  I've accomplished a LOT in my time on this planet. I've worked in construction, flooring, ministry and now in tech.  For the sake of brevity I'm only listing my tech experience here.
           </p>
-          <p><span className="emphasis">Primary expertise</span>: JavaScript, ReactJS, Gatsby, Redux, Node.js, HTML, CSS, Docker, AWS, MongoDB.</p>
-          <p><span className="emphasis">Secondary expertise</span>: MySQL, PHP, Java, MS Exchange, Linux server administration.</p>
+          <p><span className="emphasis">Primary expertise</span>: Leadership, Mentoring, Team Building, Problem solving.</p>
+          <p><span className="emphasis">Technical expertise</span>: JavaScript, ReactJS, Gatsby Redux, Node.js, HTML, CSS, Docker, AWS, MongoDB.</p>
+          <p><span className="emphasis">Technical familiarity</span>: MySQL, PHP, Java, MS Exchange, Linux server administration.</p>
+
+          <h3>Floor & Decor</h3>
+          <p>
+          Hired to manage a six-member full-stack engineering team that builds internal tools and owns a portfolio of 14 applications. Responsibilities spanned hiring, onboarding, training, mentoring, performance reviews, product delivery, production support, and nurturing team well-being.
+          </p>
 
           <h3>Revel Systems</h3>
           <p>
           I was hired to build and lead an Atlanta based team of engineers and oversee direction, architecture and drive new feature delivery. Entrusted with building a pipeline of technical talent, creating a fun, challenging and rewarding environment. Technology stack consists of React.JS, Python, Postgres within AWS.
-          <ul>
-          <li>Oversee the technical design and delivery of software features to ensure compliance with architecture standards, guidelines and objectives.</li>
-
-          <li>Help establish and instill best practices techniques for a high level of quality and scalability.</li>
-
-          <li>Hire, mentor and develop smart, motivated engineers.</li>
-
-          <li>Create a culture of quality with a sense of urgency.</li>
-
-          <li>Coach, inspire, and lead Agile teams.</li>
-
-          <li>Engage with product owners, scrum masters, QA and other stakeholders to ensure key objectives for target markets are met.</li>
-
-          <li>Dive into product specs, technical designs, code and test plans to drive quality deliverables.</li>
-          </ul>
           </p>
 
           <h3>Rooms To Go</h3>
           <p>
-          I was hired as a front-end team lead with responsibility for high-level architecture decisions, new feature implementation, operational oversight, work prioritization/assignments, and team oversight to include interviewing, hiring and onboarding, training and mentoring, performance reviews, and ensuring team health.
-
-Project work has included efforts to significantly increase homepage loading speed, AA 508 compliance efforts, various code improvement initiatives (training, authoring style guides, code review), and implementation of new features.
-
-Our stack includes ReactJS, Gatsby, Core JavaScript, Redux, Sass, Node.js, Contentful CMS, MongoDB, AWS, and Jenkins.
+            I was hired as a front-end team lead with responsibility for high-level architecture decisions, new feature implementation, operational oversight, work prioritization/assignments, and team oversight to include interviewing, hiring and onboarding, training and mentoring, performance reviews, and ensuring team health.
           </p>
 
           <h3>Cricket Wireless</h3>
@@ -72,17 +58,12 @@ Our stack includes ReactJS, Gatsby, Core JavaScript, Redux, Sass, Node.js, Conte
 
           <h3>COX Automotive</h3>
           <p>
-          Lead full-stack software development of Digital Retailing products across Autotrader, KBB, Dealer.com and OEM and Dealer Group partners. Work in an agile environment with cross-functional team to develop products that meet the needs of our consumers & clients.
-          </p>
-          <p>
-          Developed the full stack re-branding of Trade-In Marketplace to Kelley Blue Book Instant Cash Offer. After initial launch, Re-platformed the application by converting existing Java functionality into a fully responsive SPA (single page application) with React.js, Node package manager and other cutting edge technologies. Re-platform included development work ranging from API end-point creation and data model manipulation to front-end styling and UI/UX implementation. It is expected to generate $3.2M in incremental revenue in the first year.
+            Lead full-stack software development of Digital Retailing products across Autotrader, KBB, Dealer.com and OEM and Dealer Group partners. Work in an agile environment with cross-functional team to develop products that meet the needs of our consumers & clients.
           </p>
 
           <h3>Outdoor Sportsman Group</h3>
           <p>
-          Developed custom internal software which effectively streamlined workflows in multiple departments including order processing, accounting and subscription tracking.
-
-Developed commercial web and e-commerce applications for multiple high-traffic web sites including gunsandammo.com and in-fisherman.com. Utilized MySQL, PHP, WordPress, HTML5, CSS3, jQuery and other javascript libraries.
+            Developed custom internal software which effectively streamlined workflows in multiple departments including order processing, accounting and subscription tracking.
           </p>
 
           <h3>JMX Services</h3>
@@ -94,7 +75,7 @@ Developed commercial web and e-commerce applications for multiple high-traffic w
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={stained_glass} alt="" /></span>
+          <span className="image main"><img src={trees} alt="" /></span>
           <p>
             When I'm not behind a computer I'm likely hiking a trail somewhere, or fishing on a lake with my wife and kids.
           </p>
