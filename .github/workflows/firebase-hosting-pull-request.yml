@@ -10,6 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install Python2
+        run: sudo apt install python2
+
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
