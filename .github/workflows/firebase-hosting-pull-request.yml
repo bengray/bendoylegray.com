@@ -22,7 +22,7 @@ jobs:
         run: npm install -g gatsby-cli@2.19.3
 
       - name: NPM Install
-        run: npm i
+        run: rm -rf node_modules/ && npm i
 
       - name: NPM Build
         run: npm run build
