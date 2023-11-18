@@ -77,7 +77,7 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <span className="image main"><img src={trees} alt="" /></span>
           <p>
-            When I'm not behind a computer I'm likely hiking a trail somewhere, or fishing on a lake with my wife and kids.
+            When I'm not behind a computer I'm likely hiking a trail somewhere, or fishing on a lake with my wife and kids. I also have a keen interest in modifying and maintaining cars and trucks. It's an odd combination: softare + mechanics.  But if there's one thing I've discovered about myself in my time on this planet, it's that very few things make sense in the grand scheme of things.
           </p>
           <p>
             Life is more than a resume.  Success is more than the balance in a bank account.  I strive to connect people through technologies, embracing the human element and wrangling the technical.
