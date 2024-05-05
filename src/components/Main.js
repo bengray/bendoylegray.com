@@ -92,7 +92,7 @@ class Main extends React.Component {
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <p>
-            Connect with me via email at bendoylegray@gmail.com or one of the social media sites below:
+            Connect with me via email at &#098;&#101;&#110;&#100;&#111;&#121;&#108;&#101;&#103;&#114;&#097;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; or one of the social media sites below:
           </p>
           <ul className="icons">
             <li><a href="https://twitter.com/bgray" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
